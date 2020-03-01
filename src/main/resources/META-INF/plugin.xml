@@ -1,0 +1,25 @@
+<idea-plugin>
+    <id>ua.com.glebk.paste_git_branch</id>
+    <name>Paste git branch</name>
+    <vendor email="dunkpi@ukr.net"
+            url="http://www.glebk.com.ua">
+        Glebk
+    </vendor>
+    <description>Plugin adds a button that pastes current git branch name at the beginning of the commit message</description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>Git4Idea</depends>
+
+    <extensions defaultExtensionNs="com.intellij"/>
+
+    <actions>
+        <action class="paste_git_branch.PasteGitBranchAction"
+                description="Apply template"
+                icon="AllIcons.General.ArrowDown"
+                id="paste_git_branch.PasteGitBranchAction"
+                text="Paste Git Branch">
+            <add-to-group anchor="first"
+                          group-id="Vcs.MessageActionGroup"/>
+        </action>
+    </actions>
+</idea-plugin>
