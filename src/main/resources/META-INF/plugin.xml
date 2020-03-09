@@ -1,9 +1,8 @@
 <idea-plugin>
     <id>ua.com.glebk.paste_git_branch</id>
     <name>Paste git branch</name>
-    <vendor email="dunkpi@ukr.net"
-            url="http://www.glebk.com.ua">
-        Glebk
+    <vendor email="dunkpi@ukr.net">
+        Gleb Kulikovskiy
     </vendor>
     <description>Plugin adds a button that pastes current git branch name at the beginning of the commit message</description>
 
