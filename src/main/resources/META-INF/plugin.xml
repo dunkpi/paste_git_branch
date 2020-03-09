@@ -6,6 +6,8 @@
     </vendor>
     <description>Plugin adds a button that pastes current git branch name at the beginning of the commit message</description>
 
+    <idea-version since-build="135.1230"/>
+
     <depends>com.intellij.modules.platform</depends>
     <depends>Git4Idea</depends>
 
